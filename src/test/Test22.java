@@ -15,7 +15,10 @@ public class Test22 {
 		{
 			System.out.println("String is null");
 		}
-		
+		finally
+		{
+			System.out.println(a);
+		}
 	}
 
 }
