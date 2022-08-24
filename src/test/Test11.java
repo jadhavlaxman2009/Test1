@@ -7,12 +7,15 @@ public class Test11 {
 
 		String a=null;
 		
-		System.out.println(a);
-		/*try
+		
+		try
 		{
 			System.out.println(a.length());
-		}*/
-
+		}
+        catch(NullPointerException e)
+		{
+        	System.out.println("String Is Null proceed further");
+		}
 	}
 
 }
